@@ -3,9 +3,9 @@
 
 **City of Cape Town \- Data Science Unit Code Challenge**
 
-**Technical Assessment: Head of Data Product Services**
+# Technical Assessment: Head of Data Product Services
 
-1. **Product Vision & User Definition**
+## 1. Product Vision & User Definition
 
 **Product Vision Statement**
 
@@ -31,7 +31,7 @@
 
 ---
 
-2. **Strategy & Success Metrics**
+## 2. Strategy & Success Metrics
 
 **The core product strategy:**
 
@@ -56,11 +56,11 @@
 
 ---
 
-3. **The User Journey & MVP**
+## 3. The User Journey & MVP
 
 **WhatsApp User Journey:**
 
-![][image1]
+<img width="1748" height="2288" alt="image" src="https://github.com/user-attachments/assets/f0cd8e10-414d-4e30-97d6-5f7c6994b4ce" />
 
 The bot will use a conversational flow to understand intent from free text input and then ask the user for structured data inputs via selection. For example if the user at any point types “I’ve made a mistake” or “I want to make a change” then the user is presented with the steps completed up to this point and asked to select the step they would like to edit. E.g. 1\. Description, 2\. Category etc. Alternatively the user could type ‘I gave the wrong address’, and the bot would revert to the address step by asking for the address again.
 
@@ -78,7 +78,7 @@ Depending on the granularity of status tracking by the departments, the user wou
 
 **Value vs. Effort matrix**
 
-![][image2]
+<img width="940" height="758" alt="image" src="https://github.com/user-attachments/assets/7a7aa055-049b-4e6b-aa5b-d4763d0d8719" />
 
 The value versus effort matrix is helpful in prioritizing for:
 
@@ -87,7 +87,7 @@ The value versus effort matrix is helpful in prioritizing for:
 
 ---
 
-4. **Data & Technical Considerations**
+## 4. Data & Technical Considerations
 
 **Key data sources City Pulse must integrate with:**
 
@@ -117,7 +117,7 @@ Risk mitigation \-  a full review of WhatsApp specific security risks needs to b
 
 ---
 
-5. **Implementation & Governance Plan**
+## 5. Implementation & Governance Plan
 
 **Metadata management and documentation practices**
 
@@ -141,11 +141,11 @@ Data products are to be owned by data product owners, who represent stakeholder 
 
 **Proposed phased implementation of City Pulse Solution**
 
-![][image3]
+<img width="2272" height="1760" alt="image" src="https://github.com/user-attachments/assets/0e2455eb-102a-40d7-b6be-41ca21ae08ec" />
 
 To ensure business continuity, and given that there is limited integration capacity and uneven data quality across departments, phase 1 would entail maintaining the existing departmental data siloes while delivering the WhatsApp solution:
 
-![][image4]
+<img width="1571" height="785" alt="image" src="https://github.com/user-attachments/assets/eb88ce34-4437-4174-a220-e223056049ed" />
 
 The departmental data management practices and reports remain while the incident data from the web portal and call centre is replaced or supplemented with the WhatsApp incident data (the call centre channel should remain in place for those residents wishing to speak to a human operator, but there is a case for sunsetting the web portal once the WhatsApp channel is fully deployed)
 
@@ -153,7 +153,7 @@ An agile methodology would be used to deploy the WhatsApp solution iteratively i
 
 The final phase towards the fully fledged City Pulse solution would involve iteratively absorbing individual departmental data management into a unified data management function, with a single data governance framework applied. It’s critical that this is also done iteratively with minimal operational disruptions. This could be implemented one department at a time, with the migration running in parallel to the existing function until City Pulse data products meet the requirements for existing departmental reports/analytics views.
 
-![][image5]
+<img width="1284" height="757" alt="image" src="https://github.com/user-attachments/assets/c99f3046-db47-46bf-906d-4a0485e632ea" />
 
 **Governance Workflow**
 
@@ -178,7 +178,7 @@ Each data product created should adhere to a governance workflow so that the new
 
 ---
 
-6. **Reflection on AI Use**
+## 6. Reflection on AI Use
 
 AI was used in the following ways:
 
